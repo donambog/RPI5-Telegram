@@ -71,3 +71,20 @@ This project is a simple Telegram bot that sends messages to a specified channel
    TELEGRAM_TOKEN=your_bot_token
    CHAT_ID=your_chat_id
    CANAL_ID=your_channel_id
+   
+### Step5: Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_username/telegram-bot.git
+   cd telegram-bot
+2. Install the required packages:
+   pip install requests python-dotenv
+   Usage
+   To send a message to the Telegram channel, run the following command:python telegram-bot.py
+3. Docker Usage
+   Build the Docker image : sudo docker build -t telegram-bot .
+   Run the Docker container with the environment variables:
+   sudo docker run --env-file .env telegram-bot
+   This will execute the script inside the Docker container, sending a message to your specified Telegram channel.
+Enjoy!!
